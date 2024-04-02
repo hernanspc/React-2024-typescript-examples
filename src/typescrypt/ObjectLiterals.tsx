@@ -1,4 +1,3 @@
-import React from 'react'
 
 interface Person {
     fullName: string,
@@ -13,7 +12,6 @@ interface Address {
 }
 
 export const ObjectLiterals = () => {
-
 
     const person: Person = {
         fullName: 'Hernan',

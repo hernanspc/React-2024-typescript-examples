@@ -1,4 +1,5 @@
-import { ObjectLiterals, BasycTypes } from "./typescrypt"
+import { Counter } from "./components"
+import { ObjectLiterals, BasycTypes, BasicFunctions } from "./typescrypt"
 
 function App() {
 
@@ -6,7 +7,9 @@ function App() {
     <main>
       <h1>Intro a ts - react </h1>
       {/* <BasycTypes /> */}
-      <ObjectLiterals />
+      {/* <ObjectLiterals /> */}
+      {/* <BasicFunctions /> */}
+      <Counter />
     </main>
   )
 }
