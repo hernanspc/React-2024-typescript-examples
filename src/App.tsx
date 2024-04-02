@@ -1,4 +1,5 @@
 import { Counter, CounterWithHook } from "./components"
+import { LoginPage } from "./components/LoginPage"
 import { ObjectLiterals, BasycTypes, BasicFunctions } from "./typescrypt"
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
       {/* <Counter /> */}
-      <CounterWithHook />
+      {/* <CounterWithHook /> */}
+      <LoginPage />
     </main>
   )
 }
